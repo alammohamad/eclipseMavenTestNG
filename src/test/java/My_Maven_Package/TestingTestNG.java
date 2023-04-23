@@ -4,9 +4,10 @@ package My_Maven_Package;
 // That that java file ---need to configure:
 //r click on that java file--run as--select run configure test
 //---select only regression from groups drop down--apply--run
-// nned to learn how to add from pom xml??
+// need to learn how to add from pom xml??
 import org.testng.annotations.Test;
 
+@Test(groups="User_Login") // we can do the whole class belongs to login or so
 public class TestingTestNG {
 
 	@Test(groups="Regression")
