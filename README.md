@@ -1,0 +1,2 @@
+# eclipseMavenTestNG
+TestPractice
